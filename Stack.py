@@ -20,13 +20,3 @@ class Stack:
 
     def head(self):
         return print(self.stack[-1])
-
-
-pilha = Stack()
-pilha.insert(5)
-pilha.insert(7)
-pilha.empty()
-
-pilha.length()
-pilha.remove()
-pilha.head()
