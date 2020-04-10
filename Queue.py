@@ -29,20 +29,3 @@ class Queue:
     def show(self):
         for i in self.queue:
             print(i, end = ' ')
-
-q = Queue()
-q.empty()
-q.push(2)
-q.push(3)
-q.push(7)
-q.show()
-q.length()
-q.empty()
-q.first()
-q.last()
-q.remove()
-q.first()
-q.remove()
-q.first()
-q.length()
-q.show()
